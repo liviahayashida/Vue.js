@@ -4,6 +4,7 @@
       <h1>Hello World!</h1>
       <p>Este é um parágrafo de exemplo.</p>
     </Card>
+    <!-- slot recebe seu conteúdo -->
     
     <Card>
       <img src="https://via.placeholder.com/150" alt="Imagem de exemplo">
