@@ -29,25 +29,18 @@
 // function atualizarTotal(valor) {
 // totalCliques.value = valor
 // }
-import ExemploSlots from './components/exercicios/atividade01/ExemploSlots.vue';
+import Exercicio32Slots from './components/exercicios/Exercicio32Slots.vue';
 // import ExemploRouter from './components/exercicios/atividade01/ExemploRouter.vue';
 </script>
 
 <template>
-<EXemplo01></EXemplo01>
-<EXemplo02></EXemplo02>
- <EXemplo03></EXemplo03>
-<EXemplo03></EXemplo03>
-<Exemplo02Condicional></Exemplo02Condicional>
-<Exemplo04></Exemplo04>
-<Exercicio6Botoes></Exercicio6Botoes>
-<Exemplo09></Exemplo09>
-<!-- <UserCard nome="Livia" email="livia.hayshida@aluno.senai.br" idade="17" telefone="1109870987" :ativo="false" ></UserCard> -->
- <!-- <UserCard nome="user.nome" email="livia.hayshida@aluno.senai.br" idade="17" telefone="1109870987" :ativo="false" ></UserCard>
- <ProductCard title="The Adventure" price="20" :image="'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfqg06wKu_sN1GMm2Uv-62cF3x0jH0cNEH_Q&s'" :inStock="false"></ProductCard> 
- <Exemplo11Emits @update="atualizarTotal"></Exemplo11Emits> -->
- <!-- <p>Total de cliques: {{ totalCliques }}</p> -->
- <Exercicio21Emits></Exercicio21Emits>
  <ExemploSlots></ExemploSlots>
- <ExemploRouter></ExemploRouter>
+ <Exercicio32Slots></Exercicio32Slots>
+ <Exercicio32Slots></Exercicio32Slots>
 </template>
+
+<!--  <UserCard nome="Livia" email="livia.hayshida@aluno.senai.br" idade="17" telefone="1109870987" :ativo="false" ></UserCard> -->
+ <!-- <UserCard nome="user.nome" email="livia.hayshida@aluno.senai.br" idade="17" telefone="1109870987" :ativo="false" ></UserCard> -->
+ <!-- <ProductCard title="The Adventure" price="20" :image="'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfqg06wKu_sN1GMm2Uv-62cF3x0jH0cNEH_Q&s'" :inStock="false"></ProductCard> 
+ <!-- Exemplo11Emits @update="atualizarTotal"></Exemplo11Emits> -->
+ <!-- <p>Total de cliques: {{ totalCliques }}</p> -->
